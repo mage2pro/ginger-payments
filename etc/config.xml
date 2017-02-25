@@ -1,0 +1,22 @@
+<?xml version='1.0'?>
+<config
+    xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance'
+    xsi:noNamespaceSchemaLocation='urn:magento:module:Magento_Store:etc/config.xsd'
+>
+    <default>
+		<df_payment>
+			<ginger_payments>
+				<actionForNew>authorize_capture</actionForNew>
+				<actionForReturned>authorize_capture</actionForReturned>
+				<requireBillingAddress>1</requireBillingAddress>
+				<title>Ginger Payments</title>
+				<title_backend>Ginger Payments</title_backend>
+			</ginger_payments>
+		</df_payment>
+        <payment>
+            <dfe_ginger_payments>
+				<model>Dfe\GingerPayments\Method</model>
+            </dfe_ginger_payments>
+        </payment>
+    </default>
+</config>
