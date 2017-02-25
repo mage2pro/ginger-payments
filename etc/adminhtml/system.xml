@@ -112,7 +112,7 @@
 					showInStore='1'
 				>
 					<label>Webhook</label>
-					<comment><![CDATA[<a href='https://mage2.pro/t/977' target='_blank'>set it in your Ginger Payments account</a>]]></comment>
+					<comment><![CDATA[<a href='https://mage2.pro/t/3370' target='_blank'>set it in your Ginger Payments account</a>]]></comment>
 					<depends><field id='enable'>1</field></depends>
 				</field>
 				<field
