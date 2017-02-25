@@ -75,7 +75,7 @@
 					showInStore='1'
 				>
 					<label>Test API Key</label>
-					<comment><![CDATA[<a href='https://mage2.pro/t/3346' target='_blank'>Where is the API Key located?</a>]]></comment>
+					<comment><![CDATA[<a href='https://mage2.pro/t/3368' target='_blank'>Where is the API Key located?</a>]]></comment>
 					<backend_model>Magento\Config\Model\Config\Backend\Encrypted</backend_model>
 					<depends>
 						<field id='enable'>1</field>
@@ -93,7 +93,7 @@
 					showInStore='1'
 				>
 					<label>Live API Key</label>
-					<comment><![CDATA[<a href='https://mage2.pro/t/3346' target='_blank'>Where is the API Key located?</a>]]></comment>
+					<comment><![CDATA[<a href='https://mage2.pro/t/3368' target='_blank'>Where is the API Key located?</a>]]></comment>
 					<backend_model>Magento\Config\Model\Config\Backend\Encrypted</backend_model>
 					<depends>
 						<field id='enable'>1</field>
