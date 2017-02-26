@@ -21,13 +21,4 @@ final class Settings extends \Df\GingerPaymentsBase\Settings {
 	 * @return string
 	 */
 	protected function apiDomain() {return 'gingerpayments.com';}
-
-	/**
-	 * 2017-02-26
-	 * @override
-	 * @see \Df\GingerPaymentsBase\Settings::product()
-	 * @used-by \Df\GingerPaymentsBase\Settings::api()
-	 * @return string
-	 */
-	protected function product() {return 'Ginger Payments';}
 }
