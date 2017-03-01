@@ -129,11 +129,47 @@
 					<comment><![CDATA[If <b>checked</b>, Magento will require the billing address. It is the default Magento behaviour.<br/>If <b>unchecked</b>, Magento will not require the billing address, and even will not ask for it.]]></comment>
 					<depends><field id='enable'>1</field></depends>
 				</field>
+<!-- 2017-03-01
+Две опции ниже сделал по аналогии с модулем allPay:
+https://github.com/mage2pro/allpay/blob/1.1.33/etc/adminhtml/system.xml?ts=4#L317-L348
+-->
+				<field
+					id='optionsLimit'
+					translate='label'
+					type='Df\Framework\Form\Element\Checkbox'
+					sortOrder='8'
+					showInDefault='1'
+					showInWebsite='1'
+					showInStore='1'
+				>
+					<label>Limit Payment Options Availability?</label>
+					<backend_model>Df\Config\Backend\Checkbox</backend_model>
+					<comment><![CDATA[If checked, only the specified options will be available to the customers.]]></comment>
+					<depends><field id='enable'>1</field></depends>
+				</field>
+				<field
+					id='optionsAllowed'
+					translate='label'
+					type='Df\Framework\Form\Element\Multiselect'
+					sortOrder='9'
+					showInDefault='1'
+					showInWebsite='1'
+					showInStore='1'
+				>
+					<label>Allowed Payment Options</label>
+					<source_model>Dfe\GingerPayments\Source\Option</source_model>
+					<comment><![CDATA[They will be available to the customers on the Magento checkout screen.]]></comment>
+					<validate>required-entry</validate>
+					<depends>
+						<field id='enable'>1</field>
+						<field id='optionsLimit'>1</field>
+					</depends>
+				</field>
 				<field
 					id='min_order_total'
 					translate='label'
 					type='text'
-					sortOrder='8'
+					sortOrder='10'
 					showInDefault='1'
 					showInWebsite='1'
 					showInStore='1'
@@ -147,7 +183,7 @@
 					id='max_order_total'
 					translate='label'
 					type='text'
-					sortOrder='9'
+					sortOrder='11'
 					showInDefault='1'
 					showInWebsite='1'
 					showInStore='1'
@@ -161,7 +197,7 @@
 					id='country_restriction'
 					translate='label'
 					type='select'
-					sortOrder='10'
+					sortOrder='12'
 					showInDefault='1'
 					showInWebsite='1'
 					showInStore='1'
@@ -174,7 +210,7 @@
 					id='countries'
 					translate='label'
 					type='Df\Framework\Form\Element\Multiselect'
-					sortOrder='11'
+					sortOrder='13'
 					showInDefault='1'
 					showInWebsite='1'
 					showInStore='1'
