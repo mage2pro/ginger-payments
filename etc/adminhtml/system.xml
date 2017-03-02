@@ -101,20 +101,6 @@
 					</depends>
 					<validate>required-entry</validate>
 				</field>
-				<field
-					id='requireBillingAddress'
-					translate='label'
-					type='Df\Framework\Form\Element\Checkbox'
-					sortOrder='6'
-					showInDefault='1'
-					showInWebsite='1'
-					showInStore='1'
-				>
-					<label>Require the billing address?</label>
-					<backend_model>Df\Config\Backend\Checkbox</backend_model>
-					<comment><![CDATA[If <b>checked</b>, Magento will require the billing address. It is the default Magento behaviour.<br/>If <b>unchecked</b>, Magento will not require the billing address, and even will not ask for it.]]></comment>
-					<depends><field id='enable'>1</field></depends>
-				</field>
 <!-- 2017-03-01
 Две опции ниже сделал по аналогии с модулем allPay:
 https://github.com/mage2pro/allpay/blob/1.1.33/etc/adminhtml/system.xml?ts=4#L317-L348
@@ -123,7 +109,7 @@ https://github.com/mage2pro/allpay/blob/1.1.33/etc/adminhtml/system.xml?ts=4#L31
 					id='optionsLimit'
 					translate='label'
 					type='Df\Framework\Form\Element\Checkbox'
-					sortOrder='7'
+					sortOrder='6'
 					showInDefault='1'
 					showInWebsite='1'
 					showInStore='1'
@@ -137,7 +123,7 @@ https://github.com/mage2pro/allpay/blob/1.1.33/etc/adminhtml/system.xml?ts=4#L31
 					id='optionsAllowed'
 					translate='label'
 					type='Df\Framework\Form\Element\Multiselect'
-					sortOrder='8'
+					sortOrder='7'
 					showInDefault='1'
 					showInWebsite='1'
 					showInStore='1'
@@ -150,6 +136,20 @@ https://github.com/mage2pro/allpay/blob/1.1.33/etc/adminhtml/system.xml?ts=4#L31
 						<field id='enable'>1</field>
 						<field id='optionsLimit'>1</field>
 					</depends>
+				</field>
+				<field
+					id='requireBillingAddress'
+					translate='label'
+					type='Df\Framework\Form\Element\Checkbox'
+					sortOrder='8'
+					showInDefault='1'
+					showInWebsite='1'
+					showInStore='1'
+				>
+					<label>Require the billing address?</label>
+					<backend_model>Df\Config\Backend\Checkbox</backend_model>
+					<comment><![CDATA[If <b>checked</b>, Magento will require the billing address. It is the default Magento behaviour.<br/>If <b>unchecked</b>, Magento will not require the billing address, and even will not ask for it.]]></comment>
+					<depends><field id='enable'>1</field></depends>
 				</field>
 				<field
 					id='min_order_total'
