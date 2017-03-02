@@ -135,7 +135,7 @@ https://github.com/mage2pro/allpay/blob/1.1.33/etc/adminhtml/system.xml?ts=4#L31
 				>
 					<label>Allowed Payment Options</label>
 					<source_model>Dfe\GingerPayments\Source\Option</source_model>
-					<comment><![CDATA[They will be available to the customers on the Magento checkout screen.]]></comment>
+					<comment><![CDATA[Only the selected payment options will be shown to a customer on the Magento checkout screen.]]></comment>
 					<validate>required-entry</validate>
 					<depends>
 						<field id='enable'>1</field>
