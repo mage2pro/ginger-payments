@@ -102,24 +102,10 @@
 					<validate>required-entry</validate>
 				</field>
 				<field
-					id='webhook'
-					translate='label'
-					type='Df\Framework\Form\Element\Webhook'
-					dfWebhook_routePath='dfe-ginger-payments'
-					sortOrder='6'
-					showInDefault='1'
-					showInWebsite='1'
-					showInStore='1'
-				>
-					<label>Webhook</label>
-					<comment><![CDATA[<a href='https://mage2.pro/t/3370' target='_blank'>set it in your Ginger Payments account</a>]]></comment>
-					<depends><field id='enable'>1</field></depends>
-				</field>
-				<field
 					id='requireBillingAddress'
 					translate='label'
 					type='Df\Framework\Form\Element\Checkbox'
-					sortOrder='7'
+					sortOrder='6'
 					showInDefault='1'
 					showInWebsite='1'
 					showInStore='1'
@@ -137,7 +123,7 @@ https://github.com/mage2pro/allpay/blob/1.1.33/etc/adminhtml/system.xml?ts=4#L31
 					id='optionsLimit'
 					translate='label'
 					type='Df\Framework\Form\Element\Checkbox'
-					sortOrder='8'
+					sortOrder='7'
 					showInDefault='1'
 					showInWebsite='1'
 					showInStore='1'
@@ -151,7 +137,7 @@ https://github.com/mage2pro/allpay/blob/1.1.33/etc/adminhtml/system.xml?ts=4#L31
 					id='optionsAllowed'
 					translate='label'
 					type='Df\Framework\Form\Element\Multiselect'
-					sortOrder='9'
+					sortOrder='8'
 					showInDefault='1'
 					showInWebsite='1'
 					showInStore='1'
@@ -169,7 +155,7 @@ https://github.com/mage2pro/allpay/blob/1.1.33/etc/adminhtml/system.xml?ts=4#L31
 					id='min_order_total'
 					translate='label'
 					type='text'
-					sortOrder='10'
+					sortOrder='9'
 					showInDefault='1'
 					showInWebsite='1'
 					showInStore='1'
@@ -183,7 +169,7 @@ https://github.com/mage2pro/allpay/blob/1.1.33/etc/adminhtml/system.xml?ts=4#L31
 					id='max_order_total'
 					translate='label'
 					type='text'
-					sortOrder='11'
+					sortOrder='10'
 					showInDefault='1'
 					showInWebsite='1'
 					showInStore='1'
@@ -197,7 +183,7 @@ https://github.com/mage2pro/allpay/blob/1.1.33/etc/adminhtml/system.xml?ts=4#L31
 					id='country_restriction'
 					translate='label'
 					type='select'
-					sortOrder='12'
+					sortOrder='11'
 					showInDefault='1'
 					showInWebsite='1'
 					showInStore='1'
@@ -210,7 +196,7 @@ https://github.com/mage2pro/allpay/blob/1.1.33/etc/adminhtml/system.xml?ts=4#L31
 					id='countries'
 					translate='label'
 					type='Df\Framework\Form\Element\Multiselect'
-					sortOrder='13'
+					sortOrder='12'
 					showInDefault='1'
 					showInWebsite='1'
 					showInStore='1'
