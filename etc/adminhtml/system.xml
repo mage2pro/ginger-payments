@@ -130,7 +130,7 @@ https://github.com/mage2pro/allpay/blob/1.1.33/etc/adminhtml/system.xml?ts=4#L31
 				>
 					<label>Limit Payment Options Availability?</label>
 					<backend_model>Df\Config\Backend\Checkbox</backend_model>
-					<comment><![CDATA[If checked, only the specified options will be shown to the customers.]]></comment>
+					<comment><![CDATA[If checked, only the specified options will be shown to a customer.<br/>It is highly recommended to setup it, because Ginger Payments API <a href="https://mage2.pro/t/topic/3457/4" target="_blank">does not have</a> an ability to detect the allowed <a href="https://mage2.pro/t/topic/3463" target="_blank">payment options</a> programmatically, and a customer's attempt to use an unallowed payment option will <a href="https://mage2.pro/t/topic/3491"  target="_blank">lead to an error</a>.]]></comment>
 					<depends><field id='enable'>1</field></depends>
 				</field>
 				<field
