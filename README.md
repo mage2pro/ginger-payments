@@ -62,5 +62,8 @@ It is possible: the price depends on a extension and starts from $5.000.
 You will get 2 years of support, updates, and free installation service for all your clients.
 
 ## Screenshots
+### Frontend
+![](https://mage2.pro/uploads/default/original/2X/d/d29761e2bc8676b4af87014dba7fc1f5bdf334fb.png)
+
 ### Backend settings
 ![](https://mage2.pro/uploads/default/original/2X/5/572c39ec393edd991e1fb7e6e4b8dcea97faad3c.png)
