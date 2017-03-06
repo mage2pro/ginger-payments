@@ -9,9 +9,10 @@ final class Method extends \Df\GingerPaymentsBase\Method {
 	 * of a «POST /v1/orders/» request: https://mage2.pro/t/3451
 	 * «"minimum": 0, "maximum": 100».
 	 * @override
-	 * @see \Df\GingerPaymentsBase\Method::vatFactor()
+	 * @see \Df\GingerPaymentsBase\Method::vatIsInteger()
+	 * @used-by \Df\GingerPaymentsBase\Charge::pOrderLines()
 	 * @used-by \Df\GingerPaymentsBase\T\CreateOrder::t01_success()
-	 * @return int
+	 * @return bool
 	 */
-	function vatFactor() {return 1;}
+	function vatIsInteger() {return false;}
 }
