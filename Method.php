@@ -1,6 +1,7 @@
 <?php
 // 2017-02-25
 namespace Dfe\GingerPayments;
+use GingerPayments\Payment\Order\Transaction\PaymentMethod as GM;
 final class Method extends \Df\GingerPaymentsBase\Method {
 	/**
 	 * 2017-02-28
@@ -15,4 +16,13 @@ final class Method extends \Df\GingerPaymentsBase\Method {
 	 * @return bool
 	 */
 	function vatIsInteger() {return false;}
+
+	/**
+	 * 2017-03-07
+	 * @override
+	 * @see \Df\GingerPaymentsBase\Method::bankTransferId()
+	 * @used-by \Df\GingerPaymentsBase\Method::optionT()
+	 * @return bool
+	 */
+	protected function bankTransferId() {return GM::BANK_TRANSFER_G;}
 }
