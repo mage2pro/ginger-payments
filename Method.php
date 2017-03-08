@@ -15,14 +15,4 @@ final class Method extends \Df\GingerPaymentsBase\Method {
 	 * @return bool
 	 */
 	function vatIsInteger() {return false;}
-
-	/**
-	 * 2017-03-07
-	 * https://mage2.pro/t/3355/2
-	 * @override
-	 * @see \Df\GingerPaymentsBase\Method::bankTransferId()
-	 * @used-by \Df\GingerPaymentsBase\Method::optionT()
-	 * @return bool
-	 */
-	protected function bankTransferId() {return 'sepa-debit-transfer';}
 }
