@@ -8,6 +8,8 @@
 			<ginger_payments>
 				<actionForNew>authorize_capture</actionForNew>
 				<actionForReturned>authorize_capture</actionForReturned>
+<!-- 2017-03-08
+https://github.com/mage2pro/ginger-payments-base/blob/0.3.2/Api.php?ts=4#L14 -->
 				<apiDomain>gingerpayments.com</apiDomain>
 				<description>{store.domain} // {customer.name} // {order.id}</description>
 				<requireBillingAddress>1</requireBillingAddress>
