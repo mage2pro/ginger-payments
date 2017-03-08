@@ -17,6 +17,15 @@ final class Method extends \Df\GingerPaymentsBase\Method {
 	function vatIsInteger() {return false;}
 
 	/**
+	 * 2017-02-26
+	 * @override
+	 * @see \Df\GingerPaymentsBase\Settings::Method()
+	 * @used-by \Df\GingerPaymentsBase\Method::api()
+	 * @return string
+	 */
+	protected function apiDomain() {return 'gingerpayments.com';}
+
+	/**
 	 * 2017-03-07
 	 * https://mage2.pro/t/3355/2
 	 * @override
