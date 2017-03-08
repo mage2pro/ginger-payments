@@ -18,6 +18,9 @@ https://github.com/mage2pro/ginger-payments-base/blob/0.3.3/Method.php?ts=4#L46 
 				<requireBillingAddress>1</requireBillingAddress>
 				<title>Ginger Payments</title>
 				<title_backend>Ginger Payments</title_backend>
+<!-- 2017-03-08
+https://github.com/mage2pro/ginger-payments-base/blob/0.3.4/Method.php?ts=4#L46 -->
+				<vatIsInteger>0</vatIsInteger>
 			</ginger_payments>
 		</df_payment>
         <payment>
