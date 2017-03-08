@@ -1,7 +1,6 @@
 <?php
 // 2017-02-25
 namespace Dfe\GingerPayments;
-use GingerPayments\Payment\Order\Transaction\PaymentMethod as GM;
 final class Method extends \Df\GingerPaymentsBase\Method {
 	/**
 	 * 2017-02-28

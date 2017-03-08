@@ -1,6 +1,5 @@
 <?php
 namespace Dfe\GingerPayments\T\CreateOrder;
-use GingerPayments\Payment\Order\Transaction\PaymentMethod as M;
 // 2017-03-07
 final class BankTransfer extends \Df\GingerPaymentsBase\T\CreateOrder {
 	/**
