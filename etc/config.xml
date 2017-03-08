@@ -8,6 +8,7 @@
 			<ginger_payments>
 				<actionForNew>authorize_capture</actionForNew>
 				<actionForReturned>authorize_capture</actionForReturned>
+				<apiDomain>gingerpayments.com</apiDomain>
 				<description>{store.domain} // {customer.name} // {order.id}</description>
 				<requireBillingAddress>1</requireBillingAddress>
 				<title>Ginger Payments</title>
