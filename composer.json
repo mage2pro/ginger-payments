@@ -16,10 +16,12 @@
 	,"keywords": [
 		"3D Secure"
 		,"API"
+		,"Bancontact"
 		,"Bank card"
 		,"Belgium"
 		,"Credit card"
 		,"eCommerce"
+		,"Germany"
 		,"Ginger Payments"
 		,"iDEAL"
 		,"Magento"
@@ -31,5 +33,6 @@
 		,"Payment integration"
 		,"Payment gateway"
 		,"Refund"
+		,"SOFORT"
 	]
 }
