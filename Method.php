@@ -3,6 +3,15 @@
 namespace Dfe\GingerPayments;
 final class Method extends \Df\GingerPaymentsBase\Method {
 	/**
+	 * 2017-02-26
+	 * @override
+	 * @see \Df\GingerPaymentsBase\Settings::Method()
+	 * @used-by \Df\GingerPaymentsBase\Method::api()
+	 * @return string
+	 */
+	function apiDomain() {return 'gingerpayments.com';}
+
+	/**
 	 * 2017-02-28
 	 * Kassa Compleet and Ginger Payments use different formats
 	 * for the «order_lines/order_line/vat_percentage» property
@@ -15,15 +24,6 @@ final class Method extends \Df\GingerPaymentsBase\Method {
 	 * @return bool
 	 */
 	function vatIsInteger() {return false;}
-
-	/**
-	 * 2017-02-26
-	 * @override
-	 * @see \Df\GingerPaymentsBase\Settings::Method()
-	 * @used-by \Df\GingerPaymentsBase\Method::api()
-	 * @return string
-	 */
-	protected function apiDomain() {return 'gingerpayments.com';}
 
 	/**
 	 * 2017-03-07
