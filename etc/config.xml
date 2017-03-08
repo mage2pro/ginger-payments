@@ -11,6 +11,7 @@
 <!-- 2017-03-08
 https://github.com/mage2pro/ginger-payments-base/blob/0.3.2/Api.php?ts=4#L14 -->
 				<apiDomain>gingerpayments.com</apiDomain>
+				<bankTransferCheckoutMessage>You will see payment instructions on the order placement.</bankTransferCheckoutMessage>
 <!-- 2017-03-08
 https://github.com/mage2pro/ginger-payments-base/blob/0.3.3/Method.php?ts=4#L46 -->
 				<bankTransferId>sepa-debit-transfer</bankTransferId>
