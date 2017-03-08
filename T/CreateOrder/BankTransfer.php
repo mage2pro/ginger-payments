@@ -10,5 +10,5 @@ final class BankTransfer extends \Df\GingerPaymentsBase\T\CreateOrder {
 	 * @used-by \Df\GingerPaymentsBase\T\CreateOrder::t01_success()
 	 * @return string
 	 */
-	protected function method() {return M::BANK_TRANSFER_G;}
+	protected function method() {return 'sepa-debit-transfer';}
 }
