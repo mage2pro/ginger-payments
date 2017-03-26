@@ -6,8 +6,7 @@ You can use it for free for the testing puproses only.
 Please read the [testing policy](https://mage2.pro/t/topic/2590) before installation.
 
 ## How to buy
-The extension is not released yet, so there is no way to buy it just now.  
-The extension will be released before 2017-03-27.   
+You can buy it with PayPal [here](https://mage2.pro/t/2652).  
 
 ## Installation
 ### Free installation service
