@@ -144,23 +144,10 @@ https://github.com/mage2pro/allpay/blob/1.1.33/etc/adminhtml/system.xml?ts=4#L31
 					</depends>
 				</field>
 				<field
-					id='btCheckoutMessage'
-					translate='label'
-					type='textarea'
-					sortOrder='8'
-					showInDefault='1'
-					showInWebsite='1'
-					showInStore='1'
-				>
-					<label>Bank Transfer checkout message</label>
-					<comment><![CDATA[It will be displayed to a customer on the Magento checkout screen before an order placement.]]></comment>
-					<depends><field id='enable'>1</field></depends>
-				</field>
-				<field
 					id='description'
 					translate='label'
 					type='textarea'
-					sortOrder='9'
+					sortOrder='8'
 					showInDefault='1'
 					showInWebsite='1'
 					showInStore='1'
@@ -173,7 +160,7 @@ https://github.com/mage2pro/allpay/blob/1.1.33/etc/adminhtml/system.xml?ts=4#L31
 					id='metadata'
 					translate='label'
 					type='Df\Framework\Form\Element\Multiselect'
-					sortOrder='10'
+					sortOrder='9'
 					showInDefault='1'
 					showInWebsite='1'
 					showInStore='1'
@@ -184,10 +171,40 @@ https://github.com/mage2pro/allpay/blob/1.1.33/etc/adminhtml/system.xml?ts=4#L31
 					<depends><field id='enable'>1</field></depends>
 				</field>
 				<field
+					id='btCheckoutMessage'
+					translate='label'
+					type='textarea'
+					sortOrder='10'
+					showInDefault='1'
+					showInWebsite='1'
+					showInStore='1'
+				>
+					<label>Bank Transfer checkout message</label>
+					<comment><![CDATA[It will be displayed to a customer on the Magento checkout screen before an order placement.]]></comment>
+					<depends><field id='enable'>1</field></depends>
+				</field>
+				<field
+					id='btInstructions'
+					translate='label'
+					type='Df\Framework\Form\Element\Textarea'
+					dfRows='9'
+					sortOrder='11'
+					showInDefault='1'
+					showInWebsite='1'
+					showInStore='1'
+				>
+					<label>Bank Transfer payment instructions</label>
+					<comment><![CDATA[It will be displayed to a customer:<ul class='df-note'>
+<li>on the Magento «<b>checkout success</b>» screen just after an order placement;</li>
+<li>on an <b>order page</b> in the «Order Information» → «Payment Method» block (the bottom-right corner);</li>
+<li>on an order confirmation <b>email</b>.</li></ul>]]></comment>
+					<depends><field id='enable'>1</field></depends>
+				</field>
+				<field
 					id='requireBillingAddress'
 					translate='label'
 					type='Df\Framework\Form\Element\Checkbox'
-					sortOrder='11'
+					sortOrder='12'
 					showInDefault='1'
 					showInWebsite='1'
 					showInStore='1'
@@ -201,7 +218,7 @@ https://github.com/mage2pro/allpay/blob/1.1.33/etc/adminhtml/system.xml?ts=4#L31
 					id='min_order_total'
 					translate='label'
 					type='text'
-					sortOrder='12'
+					sortOrder='13'
 					showInDefault='1'
 					showInWebsite='1'
 					showInStore='1'
@@ -215,7 +232,7 @@ https://github.com/mage2pro/allpay/blob/1.1.33/etc/adminhtml/system.xml?ts=4#L31
 					id='max_order_total'
 					translate='label'
 					type='text'
-					sortOrder='13'
+					sortOrder='14'
 					showInDefault='1'
 					showInWebsite='1'
 					showInStore='1'
@@ -229,7 +246,7 @@ https://github.com/mage2pro/allpay/blob/1.1.33/etc/adminhtml/system.xml?ts=4#L31
 					id='country_restriction'
 					translate='label'
 					type='select'
-					sortOrder='14'
+					sortOrder='15'
 					showInDefault='1'
 					showInWebsite='1'
 					showInStore='1'
@@ -242,7 +259,7 @@ https://github.com/mage2pro/allpay/blob/1.1.33/etc/adminhtml/system.xml?ts=4#L31
 					id='countries'
 					translate='label'
 					type='Df\Framework\Form\Element\Multiselect'
-					sortOrder='15'
+					sortOrder='16'
 					showInDefault='1'
 					showInWebsite='1'
 					showInStore='1'
