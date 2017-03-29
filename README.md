@@ -71,10 +71,10 @@ You will get 2 years of support, updates, and free installation service for all 
 ![](https://mage2.pro/uploads/default/original/2X/9/9b7409c651886506a9aeb1003c001d6a49cc2d1f.png)
 
 ### 4. The «Order Information» → «Payment Method» block on the frontend order page for an iDEAL payment
-![](https://mage2.pro/uploads/default/original/2X/9/9da2b4b3b5dd73c8bf7db7cb4c851ea85a755cbe.png)
+![](https://mage2.pro/uploads/default/original/2X/b/b0fa52a53e488ddf4049f2ad88b1f9376699dd5c.png)
 
 ### 5. The «Payment Method» block on the backend order page for an iDEAL payment
-![](https://mage2.pro/uploads/default/original/2X/4/433214e15bc541fec2a6909e05b0ff10763532d8.png)
+![](https://mage2.pro/uploads/default/original/2X/b/b8377c74e12a159997b6f6f79fbaaee2404b33d1.png)
 
 ### 6. The backend settings
 ![](https://mage2.pro/uploads/default/original/2X/7/78838862593e7289d692883cac1ee16e242f8a92.png)
