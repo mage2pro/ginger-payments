@@ -24,9 +24,6 @@ https://github.com/mage2pro/ginger-payments-base/blob/0.3.3/Method.php?ts=4#L46 
 <!-- 2017-03-08
 https://github.com/mage2pro/ginger-payments-base/blob/0.3.2/Api.php?ts=4#L14 -->
 				<domain>gingerpayments.com</domain>
-<!-- 2017-03-29
-https://github.com/mage2pro/ginger-payments-base/blob/1.0.7/Method.php#L79 -->
-				<portal>merchant-portal</portal>
 				<requireBillingAddress>1</requireBillingAddress>
 				<title>Ginger Payments</title>
 				<title_backend>Ginger Payments</title_backend>
