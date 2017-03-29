@@ -194,7 +194,7 @@ https://github.com/mage2pro/allpay/blob/1.1.33/etc/adminhtml/system.xml?ts=4#L31
 					showInStore='1'
 				>
 					<label>Bank Transfer payment instructions</label>
-					<comment><![CDATA[It will be displayed to a customer:<ul class='df-note'>
+					<comment><![CDATA[They will be displayed to a customer:<ul class='df-note'>
 <li>on the Magento «<b>checkout success</b>» screen just after an order placement;</li>
 <li>on an <b>order page</b> in the «Order Information» → «Payment Method» block (the bottom-right corner);</li>
 <li>on an order confirmation <b>email</b>.</li></ul>]]></comment>
