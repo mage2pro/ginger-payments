@@ -144,7 +144,7 @@ https://github.com/mage2pro/allpay/blob/1.1.33/etc/adminhtml/system.xml?ts=4#L31
 					</depends>
 				</field>
 				<field
-					id='bankTransferCheckoutMessage'
+					id='btCheckoutMessage'
 					translate='label'
 					type='textarea'
 					sortOrder='8'
