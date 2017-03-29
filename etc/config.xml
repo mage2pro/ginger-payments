@@ -15,13 +15,13 @@ https://github.com/mage2pro/ginger-payments-base/blob/0.3.2/Api.php?ts=4#L14 -->
 <!-- 2017-03-08
 https://github.com/mage2pro/ginger-payments-base/blob/0.3.3/Method.php?ts=4#L46 -->
 				<btId>sepa-debit-transfer</btId>
-				<btInstructions><![CDATA[Please use the following data to pay your order with a bank transfer:<ul>
-<li>Amount: {amount}</li>
-<li>Reference: {reference}</li>
-<li>IBAN: NL13INGB0005300060</li>
-<li>BIC: INGBNL2A</li>
-<li>Account holder: ING Bank N.V. PSP</li>
-<li>City: Amsterdam, NL</li>
+				<btInstructions><![CDATA[<b>Please use the following data to pay your order with a bank transfer:</b><ul>
+<li><b>Amount</b>: {amount}</li>
+<li><b>Reference</b>: {reference}</li>
+<li><b>IBAN</b>: NL13INGB0005300060</li>
+<li><b>BIC</b>: INGBNL2A</li>
+<li><b>Account holder</b>: ING Bank N.V. PSP</li>
+<li><b>City</b>: Amsterdam, NL</li>
 </ul>]]></btInstructions>
 				<description>{store.domain} // {customer.name} // {order.id}</description>
 				<requireBillingAddress>1</requireBillingAddress>
