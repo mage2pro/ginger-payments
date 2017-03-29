@@ -61,8 +61,11 @@ It is possible: the price depends on a extension and starts from $5.000.
 You will get 2 years of support, updates, and free installation service for all your clients.
 
 ## Screenshots
-### Frontend
+### 1. Frontend checkout screen
 ![](https://mage2.pro/uploads/default/original/2X/d/d29761e2bc8676b4af87014dba7fc1f5bdf334fb.png)
 
-### Backend settings
+### 2. Frontend «checkout success» screen for a bank transfer payment
+![](https://mage2.pro/uploads/default/original/2X/8/802d1315ca1cff505e783fd7c8225adffc3d9976.png)
+
+### 3. Backend settings
 ![](https://mage2.pro/uploads/default/original/2X/7/78838862593e7289d692883cac1ee16e242f8a92.png)
