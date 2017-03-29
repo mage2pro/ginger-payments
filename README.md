@@ -68,7 +68,7 @@ You will get 2 years of support, updates, and free installation service for all 
 ![](https://mage2.pro/uploads/default/original/2X/8/802d1315ca1cff505e783fd7c8225adffc3d9976.png)
 
 ### 3. The «Order Information» → «Payment Method» block on the frontend order page for a bank transfer payment
-![](https://mage2.pro/uploads/default/original/2X/5/5745bb2f3356fe4cb0316bd5c45ee28d2131f5b1.png)
+![](https://mage2.pro/uploads/default/original/2X/9/9b7409c651886506a9aeb1003c001d6a49cc2d1f.png)
 
 ### 4. The «Order Information» → «Payment Method» block on the frontend order page for an iDEAL payment
 ![](https://mage2.pro/uploads/default/original/2X/9/9da2b4b3b5dd73c8bf7db7cb4c851ea85a755cbe.png)
