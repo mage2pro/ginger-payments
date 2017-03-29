@@ -65,4 +65,4 @@ You will get 2 years of support, updates, and free installation service for all 
 ![](https://mage2.pro/uploads/default/original/2X/d/d29761e2bc8676b4af87014dba7fc1f5bdf334fb.png)
 
 ### Backend settings
-![](https://mage2.pro/uploads/default/original/2X/f/f1c1c5522ff135c748611a4447d5937661aaeb44.png)
+![](https://mage2.pro/uploads/default/original/2X/7/78838862593e7289d692883cac1ee16e242f8a92.png)
