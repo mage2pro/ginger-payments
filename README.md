@@ -1,4 +1,4 @@
-The extension integrates your Magento 2 store with the **[Ginger Payments](https://www.gingerpayments.com)** payment service (the Netherlands, Belgium).
+The extension integrates your Magento 2 store with the **[Ginger Payments](https://www.gingerpayments.com)** payment service (the Netherlands). It supports iDEAL (the Netherlands), Bancontact (Belgium), SOFORT (Germany), bank cards, bank transfers.
 
 ## Licensing
 It is a paid extension, not free.  
