@@ -3,6 +3,7 @@ The extension integrates your Magento 2 store with the **[Ginger Payments](https
 ## Demo videos
 
 1. [Capture an **iDEAL** payment](https://mage2.pro/t/topic/3570).
+2. [Capture a **bank transfer** payment](https://mage2.pro/t/topic/3571).
 
 ## Licensing
 It is a paid extension, not free.  
