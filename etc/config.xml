@@ -20,6 +20,8 @@ https://github.com/mage2pro/ginger-payments-base/blob/0.3.3/Method.php?ts=4#L46 
 <li><b>Account holder</b>: ING Bank N.V. PSP</li>
 <li><b>City</b>: Amsterdam, NL</li>
 </ul>]]></btInstructions>
+<!-- 2017-04-09 Ginger Payments принимает только EUR. -->
+				<currency>EUR</currency>
 				<description>{store.domain} // {customer.name} // {order.id}</description>
 <!-- 2017-03-08
 https://github.com/mage2pro/ginger-payments-base/blob/0.3.2/Api.php?ts=4#L14 -->
