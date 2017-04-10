@@ -5,7 +5,4 @@
 >
 	<virtualType name='Dfe\GingerPayments\Controller\Confirm\Index' type='Df\Payment\W\Action'/>
 	<virtualType name='Dfe\GingerPayments\Controller\CustomerReturn\Index' type='Df\Payment\CustomerReturn'/>
-	<virtualType name='Dfe\GingerPayments\Ext' type='Df\Config\Ext'>
-		<arguments><argument name='name' xsi:type='string'>mage2pro/ginger-payments</argument></arguments>
-	</virtualType>
 </config>
