@@ -15,7 +15,6 @@
 			<group
 				id='ginger_payments'
 				translate='label'
-				type='text'
 				sortOrder='709'
 				showInDefault='1'
 				showInWebsite='1'
