@@ -14,23 +14,19 @@
 -->
 			<group
 				id='ginger_payments'
-				translate='label'
+				showInDefault='1' showInStore='1' showInWebsite='1'
 				sortOrder='709'
-				showInDefault='1'
-				showInWebsite='1'
-				showInStore='1'
+				translate='label'
 			>
 				<label>Ginger Payments</label>
 				<dfExtension>Dfe_GingerPayments</dfExtension>
 				<frontend_model>Df\Config\Fieldset</frontend_model>
 				<field
 					id='enable'
+					showInDefault='1' showInStore='1' showInWebsite='1'
+					sortOrder='1'
 					translate='label'
 					type='Df\Framework\Form\Element\Checkbox'
-					sortOrder='1'
-					showInDefault='1'
-					showInWebsite='1'
-					showInStore='1'
 				>
 					<label>Enable?</label>
 					<backend_model>Df\Config\Backend\Checkbox</backend_model>
@@ -38,12 +34,10 @@
 				</field>
 				<field
 					id='title'
+					showInDefault='1' showInStore='1' showInWebsite='1'
+					sortOrder='2'
 					translate='label'
 					type='text'
-					sortOrder='2'
-					showInDefault='1'
-					showInWebsite='1'
-					showInStore='1'
 				>
 					<label>Title</label>
 					<comment><![CDATA[It is shown on the checkout screen.]]></comment>
@@ -52,12 +46,10 @@
 				</field>
 				<field
 					id='test'
+					showInDefault='1' showInStore='1' showInWebsite='1'
+					sortOrder='3'
 					translate='label'
 					type='Df\Framework\Form\Element\Checkbox'
-					sortOrder='3'
-					showInDefault='1'
-					showInWebsite='1'
-					showInStore='1'
 				>
 					<label>Test Mode?</label>
 					<backend_model>Df\Config\Backend\Checkbox</backend_model>
@@ -66,12 +58,10 @@
 				</field>
 				<field
 					id='testPrivateKey'
+					showInDefault='1' showInStore='1' showInWebsite='1'
+					sortOrder='4'
 					translate='label'
 					type='obscure'
-					sortOrder='4'
-					showInDefault='1'
-					showInWebsite='1'
-					showInStore='1'
 				>
 					<label>Test API Key</label>
 					<comment><![CDATA[<a href='https://mage2.pro/t/3368' target='_blank'>Where is the API Key located?</a>]]></comment>
@@ -84,12 +74,10 @@
 				</field>
 				<field
 					id='livePrivateKey'
+					showInDefault='1' showInStore='1' showInWebsite='1'
+					sortOrder='5'
 					translate='label'
 					type='obscure'
-					sortOrder='5'
-					showInDefault='1'
-					showInWebsite='1'
-					showInStore='1'
 				>
 					<label>Live API Key</label>
 					<comment><![CDATA[<a href='https://mage2.pro/t/3368' target='_blank'>Where is the API Key located?</a>]]></comment>
@@ -106,12 +94,10 @@ https://github.com/mage2pro/allpay/blob/1.1.33/etc/adminhtml/system.xml?ts=4#L31
 -->
 				<field
 					id='optionsLimit'
+					showInDefault='1' showInStore='1' showInWebsite='1'
+					sortOrder='6'
 					translate='label'
 					type='Df\Framework\Form\Element\Checkbox'
-					sortOrder='6'
-					showInDefault='1'
-					showInWebsite='1'
-					showInStore='1'
 				>
 					<label>Limit Payment Options Availability?</label>
 					<backend_model>Df\Config\Backend\Checkbox</backend_model>
@@ -125,12 +111,10 @@ https://github.com/mage2pro/allpay/blob/1.1.33/etc/adminhtml/system.xml?ts=4#L31
 				</field>
 				<field
 					id='optionsAllowed'
+					showInDefault='1' showInStore='1' showInWebsite='1'
+					sortOrder='7'
 					translate='label'
 					type='Df\Framework\Form\Element\Multiselect'
-					sortOrder='7'
-					showInDefault='1'
-					showInWebsite='1'
-					showInStore='1'
 				>
 					<label>Allowed Payment Options</label>
 					<source_model>Dfe\GingerPayments\Source\Option</source_model>
@@ -144,12 +128,10 @@ https://github.com/mage2pro/allpay/blob/1.1.33/etc/adminhtml/system.xml?ts=4#L31
 				</field>
 				<field
 					id='description'
+					showInDefault='1' showInStore='1' showInWebsite='1'
+					sortOrder='8'
 					translate='label'
 					type='textarea'
-					sortOrder='8'
-					showInDefault='1'
-					showInWebsite='1'
-					showInStore='1'
 				>
 					<label>Description</label>
 					<comment><![CDATA[It will be displayed in the Ginger Payments merchant interface alongside the payment.<br/>You can use <a href='https://mage2.pro/t/1834' target='_blank'>variables</a> in the description.]]></comment>
@@ -157,12 +139,10 @@ https://github.com/mage2pro/allpay/blob/1.1.33/etc/adminhtml/system.xml?ts=4#L31
 				</field>
 				<field
 					id='metadata'
+					showInDefault='1' showInStore='1' showInWebsite='1'
+					sortOrder='9'
 					translate='label'
 					type='Df\Framework\Form\Element\Multiselect'
-					sortOrder='9'
-					showInDefault='1'
-					showInWebsite='1'
-					showInStore='1'
 				>
 					<label>Metadata</label>
 					<source_model>Df\Payment\Metadata</source_model>
@@ -171,26 +151,22 @@ https://github.com/mage2pro/allpay/blob/1.1.33/etc/adminhtml/system.xml?ts=4#L31
 				</field>
 				<field
 					id='btCheckoutMessage'
+					showInDefault='1' showInStore='1' showInWebsite='1'
+					sortOrder='10'
 					translate='label'
 					type='textarea'
-					sortOrder='10'
-					showInDefault='1'
-					showInWebsite='1'
-					showInStore='1'
 				>
 					<label>Bank Transfer checkout message</label>
 					<comment><![CDATA[It will be displayed to a customer on the Magento checkout screen before an order placement.]]></comment>
 					<depends><field id='enable'>1</field></depends>
 				</field>
 				<field
+					dfRows='9'
 					id='btInstructions'
+					showInDefault='1' showInStore='1' showInWebsite='1'
+					sortOrder='11'
 					translate='label'
 					type='Df\Framework\Form\Element\Textarea'
-					dfRows='9'
-					sortOrder='11'
-					showInDefault='1'
-					showInWebsite='1'
-					showInStore='1'
 				>
 					<label>Bank Transfer payment instructions</label>
 					<comment><![CDATA[They will be displayed to a customer:<ul class='df-note'>
@@ -201,12 +177,10 @@ https://github.com/mage2pro/allpay/blob/1.1.33/etc/adminhtml/system.xml?ts=4#L31
 				</field>
 				<field
 					id='requireBillingAddress'
+					showInDefault='1' showInStore='1' showInWebsite='1'
+					sortOrder='12'
 					translate='label'
 					type='Df\Framework\Form\Element\Checkbox'
-					sortOrder='12'
-					showInDefault='1'
-					showInWebsite='1'
-					showInStore='1'
 				>
 					<label>Require the billing address?</label>
 					<backend_model>Df\Config\Backend\Checkbox</backend_model>
@@ -215,12 +189,10 @@ https://github.com/mage2pro/allpay/blob/1.1.33/etc/adminhtml/system.xml?ts=4#L31
 				</field>
 				<field
 					id='min_order_total'
+					showInDefault='1' showInStore='1' showInWebsite='1'
+					sortOrder='13'
 					translate='label'
 					type='text'
-					sortOrder='13'
-					showInDefault='1'
-					showInWebsite='1'
-					showInStore='1'
 				>
 					<label>Minimum Order Total</label>
 					<comment><![CDATA[]]></comment>
@@ -229,12 +201,10 @@ https://github.com/mage2pro/allpay/blob/1.1.33/etc/adminhtml/system.xml?ts=4#L31
 				</field>
 				<field
 					id='max_order_total'
+					showInDefault='1' showInStore='1' showInWebsite='1'
+					sortOrder='14'
 					translate='label'
 					type='text'
-					sortOrder='14'
-					showInDefault='1'
-					showInWebsite='1'
-					showInStore='1'
 				>
 					<label>Maximum Order Total</label>
 					<comment><![CDATA[]]></comment>
@@ -243,12 +213,10 @@ https://github.com/mage2pro/allpay/blob/1.1.33/etc/adminhtml/system.xml?ts=4#L31
 				</field>
 				<field
 					id='country_restriction'
+					showInDefault='1' showInStore='1' showInWebsite='1'
+					sortOrder='15'
 					translate='label'
 					type='select'
-					sortOrder='15'
-					showInDefault='1'
-					showInWebsite='1'
-					showInStore='1'
 				>
 					<label>Country Restriction</label>
 					<source_model>Df\Config\Source\NoWhiteBlack</source_model>
@@ -256,12 +224,10 @@ https://github.com/mage2pro/allpay/blob/1.1.33/etc/adminhtml/system.xml?ts=4#L31
 				</field>
 				<field
 					id='countries'
+					showInDefault='1' showInStore='1' showInWebsite='1'
+					sortOrder='16'
 					translate='label'
 					type='Df\Framework\Form\Element\Multiselect'
-					sortOrder='16'
-					showInDefault='1'
-					showInWebsite='1'
-					showInStore='1'
 				>
 					<label>Countries</label>
 					<source_model>Magento\Directory\Model\Config\Source\Country</source_model>
