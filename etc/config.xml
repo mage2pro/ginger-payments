@@ -23,10 +23,12 @@ https://github.com/mage2pro/ginger-payments-base/blob/0.3.3/Method.php?ts=4#L46 
 <!-- 2017-04-09 Ginger Payments принимает только EUR. -->
 				<currency>EUR</currency>
 				<description>{store.domain} // {customer.name} // {order.id}</description>
-				<descriptionMaxLength>
-					<title>[Ginger Payments] The JSON Schema of a «POST /v1/orders/» request. See the «description» parameter.</title>
-					<url>https://mage2.pro/t/3410</url>
-				</descriptionMaxLength>
+				<description_rules>
+					<maxLength>
+						<title>[Ginger Payments] The JSON Schema of a «POST /v1/orders/» request. See the «description» parameter.</title>
+						<url>https://mage2.pro/t/3410</url>
+					</maxLength>
+				</description_rules>
 <!-- 2017-03-08
 https://github.com/mage2pro/ginger-payments-base/blob/0.3.2/Api.php?ts=4#L14 -->
 				<domain>gingerpayments.com</domain>
