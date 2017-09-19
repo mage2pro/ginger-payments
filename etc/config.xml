@@ -37,6 +37,7 @@ https://github.com/mage2pro/ginger-payments-base/blob/0.3.3/Method.php?ts=4#L46 
 <!-- 2017-03-08
 https://github.com/mage2pro/ginger-payments-base/blob/0.3.2/Api.php?ts=4#L14 -->
 				<domain>gingerpayments.com</domain>
+				<optionsLocation>magento</optionsLocation>
 				<optionsPrompt><![CDATA[Please select a payment option:]]></optionsPrompt>
 				<requireBillingAddress>1</requireBillingAddress>
 				<title>Ginger Payments</title>
