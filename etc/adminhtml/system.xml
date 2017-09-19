@@ -150,9 +150,22 @@ https://github.com/mage2pro/allpay/blob/1.1.33/etc/adminhtml/system.xml?ts=4#L31
 					<depends><field id='enable'>1</field></depends>
 				</field>
 				<field
-					id='btCheckoutMessage'
+					id='optionsPrompt'
 					showInDefault='1' showInStore='1' showInWebsite='1'
 					sortOrder='10'
+					translate='label'
+					type='textarea'
+				>
+					<label>Options Prompt</label>
+					<comment><![CDATA[A text above the Ginger Payments payment options on the Magento checkout page.<br/>You can use the HTML tags. Also you set the desciption empty to hide it.]]></comment>
+					<depends>
+						<field id='enable'>1</field>
+					</depends>
+				</field>
+				<field
+					id='btCheckoutMessage'
+					showInDefault='1' showInStore='1' showInWebsite='1'
+					sortOrder='11'
 					translate='label'
 					type='textarea'
 				>
@@ -164,7 +177,7 @@ https://github.com/mage2pro/allpay/blob/1.1.33/etc/adminhtml/system.xml?ts=4#L31
 					dfRows='9'
 					id='btInstructions'
 					showInDefault='1' showInStore='1' showInWebsite='1'
-					sortOrder='11'
+					sortOrder='12'
 					translate='label'
 					type='Df\Framework\Form\Element\Textarea'
 				>
@@ -178,7 +191,7 @@ https://github.com/mage2pro/allpay/blob/1.1.33/etc/adminhtml/system.xml?ts=4#L31
 				<field
 					id='requireBillingAddress'
 					showInDefault='1' showInStore='1' showInWebsite='1'
-					sortOrder='12'
+					sortOrder='13'
 					translate='label'
 					type='Df\Framework\Form\Element\Checkbox'
 				>
@@ -190,7 +203,7 @@ https://github.com/mage2pro/allpay/blob/1.1.33/etc/adminhtml/system.xml?ts=4#L31
 				<field
 					id='min_order_total'
 					showInDefault='1' showInStore='1' showInWebsite='1'
-					sortOrder='13'
+					sortOrder='14'
 					translate='label'
 					type='text'
 				>
@@ -202,7 +215,7 @@ https://github.com/mage2pro/allpay/blob/1.1.33/etc/adminhtml/system.xml?ts=4#L31
 				<field
 					id='max_order_total'
 					showInDefault='1' showInStore='1' showInWebsite='1'
-					sortOrder='14'
+					sortOrder='15'
 					translate='label'
 					type='text'
 				>
@@ -214,7 +227,7 @@ https://github.com/mage2pro/allpay/blob/1.1.33/etc/adminhtml/system.xml?ts=4#L31
 				<field
 					id='country_restriction'
 					showInDefault='1' showInStore='1' showInWebsite='1'
-					sortOrder='15'
+					sortOrder='16'
 					translate='label'
 					type='select'
 				>
@@ -225,7 +238,7 @@ https://github.com/mage2pro/allpay/blob/1.1.33/etc/adminhtml/system.xml?ts=4#L31
 				<field
 					id='countries'
 					showInDefault='1' showInStore='1' showInWebsite='1'
-					sortOrder='16'
+					sortOrder='17'
 					translate='label'
 					type='Df\Framework\Form\Element\Multiselect'
 				>
