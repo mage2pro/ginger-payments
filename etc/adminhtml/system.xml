@@ -157,7 +157,7 @@ https://github.com/mage2pro/allpay/blob/1.1.33/etc/adminhtml/system.xml?ts=4#L31
 					type='textarea'
 				>
 					<label>Options Prompt</label>
-					<comment><![CDATA[A text above the Ginger Payments payment options on the Magento checkout page.<br/>You can use the HTML tags. Also you set the desciption empty to hide it.]]></comment>
+					<comment><![CDATA[A text above the Ginger Payments payment options on the Magento checkout page.<br/>You can use the HTML tags. Also you set the prompt empty to hide it.]]></comment>
 					<depends>
 						<field id='enable'>1</field>
 					</depends>
