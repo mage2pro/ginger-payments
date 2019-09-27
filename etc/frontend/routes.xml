@@ -4,7 +4,7 @@
 	xsi:noNamespaceSchemaLocation="urn:magento:framework:App/etc/routes.xsd"
 >
 	<router id='standard'>
-		<route id='Dfe_GingerPayments' frontName='dfe-ginger-payments'>
+		<route frontName='dfe-ginger-payments' id='Dfe_GingerPayments'>
 			<module name='Dfe_GingerPayments'/>
 		</route>
 	</router>
