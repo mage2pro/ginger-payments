@@ -155,7 +155,7 @@ https://github.com/mage2pro/allpay/blob/1.1.33/etc/adminhtml/system.xml?ts=4#L31
 				>
 					<label>Metadata</label>
 					<source_model>Df\Payment\Metadata</source_model>
-					<comment><![CDATA[It will be displayed in the Ginger Payments merchant interface alongside the payment.]]></comment>
+					<comment><![CDATA[It is shown in the Ginger Payments merchant interface alongside the payment.]]></comment>
 					<depends><field id='enable'>1</field></depends>
 				</field>
 				<field
@@ -179,7 +179,7 @@ https://github.com/mage2pro/allpay/blob/1.1.33/etc/adminhtml/system.xml?ts=4#L31
 					type='textarea'
 				>
 					<label>Bank Transfer checkout message</label>
-					<comment><![CDATA[It will be displayed to a customer on the Magento checkout screen before an order placement.]]></comment>
+					<comment><![CDATA[It is shown to the customer on the Magento's checkout screen before the current order placement.]]></comment>
 					<depends><field id='enable'>1</field></depends>
 				</field>
 				<field
@@ -191,10 +191,10 @@ https://github.com/mage2pro/allpay/blob/1.1.33/etc/adminhtml/system.xml?ts=4#L31
 					type='Df\Framework\Form\Element\Textarea'
 				>
 					<label>Bank Transfer payment instructions</label>
-					<comment><![CDATA[They will be displayed to a customer:<ul class='df-note'>
-<li>on the Magento «<b>checkout success</b>» screen just after an order placement;</li>
+					<comment><![CDATA[It is shown to customers:<ul class='df-note'>
+<li>on the Magento's «<b>checkout success</b>» screen just after an order placement;</li>
 <li>on an <b>order page</b> in the «Order Information» → «Payment Method» block (the bottom-right corner);</li>
-<li>on an order confirmation <b>email</b>.</li></ul>]]></comment>
+<li>in an order confirmation <b>email</b>.</li></ul>]]></comment>
 					<depends><field id='enable'>1</field></depends>
 				</field>
 				<field
