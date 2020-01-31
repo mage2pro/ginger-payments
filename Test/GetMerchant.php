@@ -1,5 +1,5 @@
 <?php
-namespace Dfe\GingerPayments\T;
+namespace Dfe\GingerPayments\Test;
 /**
  * 2017-03-01
  * https://www.gingerpayments.com/docs#_merchants

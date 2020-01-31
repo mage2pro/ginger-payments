@@ -1,5 +1,5 @@
 <?php
-namespace Dfe\GingerPayments\T\CreateOrder;
+namespace Dfe\GingerPayments\Test\CreateOrder;
 // 2017-03-07
 final class BankTransfer extends \Df\GingerPaymentsBase\T\CreateOrder {
 	/**
