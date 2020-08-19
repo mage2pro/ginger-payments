@@ -1,7 +1,7 @@
 <?php
 namespace Dfe\GingerPayments\Source;
-// 2017-03-01
-// [Ginger Payments] Available payment options: https://mage2.pro/t/3463
+# 2017-03-01
+# [Ginger Payments] Available payment options: https://mage2.pro/t/3463
 /** @method static Option s() */
 final class Option extends \Df\GingerPaymentsBase\Source\Option {
 	/**
