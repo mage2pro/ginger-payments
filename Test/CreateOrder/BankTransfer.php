@@ -7,7 +7,6 @@ final class BankTransfer extends \Df\GingerPaymentsBase\Test\CreateOrder {
 	 * @override
 	 * @see \Df\GingerPaymentsBase\Test\CreateOrder::method()
 	 * @used-by \Df\GingerPaymentsBase\Test\CreateOrder::t01_success()
-	 * @return string
 	 */
-	protected function method() {return 'sepa-debit-transfer';}
+	protected function method():string {return 'sepa-debit-transfer';}
 }
