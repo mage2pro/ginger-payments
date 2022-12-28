@@ -23,7 +23,6 @@ final class GetMerchant extends \Df\GingerPaymentsBase\Test\GetMerchant {
 	 * 2017-03-01
 	 * @see \Df\GingerPaymentsBase\Test\GetMerchant::projectId()
 	 * @used-by \Df\GingerPaymentsBase\Test\GetMerchant::t01()
-	 * @return string
 	 */
-	protected function projectId() {return '6dc226ae-3924-4c61-bb02-49ad000fa961';}
+	protected function projectId():string {return '6dc226ae-3924-4c61-bb02-49ad000fa961';}
 }
