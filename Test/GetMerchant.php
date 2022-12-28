@@ -16,9 +16,8 @@ final class GetMerchant extends \Df\GingerPaymentsBase\Test\GetMerchant {
 	 * @override
 	 * @see \Df\GingerPaymentsBase\Test\GetMerchant::merchantId()
 	 * @used-by \Df\GingerPaymentsBase\Test\GetMerchant::t01()
-	 * @return string
 	 */
-	protected function merchantId() {return 'e563c46f';}
+	protected function merchantId():string {return 'e563c46f';}
 
 	/**
 	 * 2017-03-01
