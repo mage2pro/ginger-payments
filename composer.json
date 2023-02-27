@@ -1,6 +1,6 @@
 {
 	"name": "mage2pro/ginger-payments"
-	,"version": "1.4.0"
+	,"version": "1.4.1"
 	,"description": "Ginger Payments integration with Magento 2"
 	,"type": "magento2-module"
 	,"homepage": "https://mage2.pro/c/extensions/ginger-payments"

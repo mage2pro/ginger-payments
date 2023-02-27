@@ -10,7 +10,7 @@
 			</argument>
 		</arguments>
 	</type>
-	<virtualType name='Dfe\GingerPayments\ConfigProvider' type='Df\GingerPaymentsBase\ConfigProvider'>
+	<virtualType name='Dfe\GingerPayments\ConfigProvider' type='Dfe\GingerPaymentsBase\ConfigProvider'>
 		<arguments><argument name='module' xsi:type='string'>Dfe_GingerPayments</argument></arguments>
 	</virtualType>
 	<virtualType name='Dfe\GingerPayments\Controller\Confirm\Index' type='Df\Payment\W\Action'/>
